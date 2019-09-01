@@ -1,0 +1,172 @@
+<!doctype html>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+    <style>
+    .page {
+      height: 297mm;
+      width: 215mm;
+    }
+
+    .page:not(:first-child) {
+      page-break-before: always;
+    }
+
+    .row {
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+    }
+
+    .card {
+      font-family: 'Montserrat', sans-serif;
+      text-transform: uppercase;
+      text-align: center;
+      width: 100mm;
+      margin: 0;
+      overflow: hidden;
+      border-top: 2mm solid white;
+      border-left: 4mm solid white;
+      border-right: 4mm solid white;
+    }
+
+    .back {
+      width: 99mm;
+      height: 70mm;
+      border: 0.25mm dotted black;
+    }
+
+    .front {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 92mm;
+      height: 67mm;
+      font-size: 10mm;
+      font-weight: 700;
+      border: 4mm solid black;
+      position: relative;
+    }
+
+    .directorate {
+      font-size: 5mm;
+      font-weight: 400;
+      position: absolute;
+      top: 0;
+      right: 0;
+      background-color: black;
+      color: white;
+      border: 1mm solid black;
+    }
+
+    </style>
+  </head>
+  <body>
+
+    <div class="page">
+      <div class='row'>
+        <div class='card'>
+          <div class='back'></div>
+          <div class='front'>
+            <div>Brownfield Sites</div>
+            <div class='directorate'>Planning</div>
+          </div>
+        </div>
+        <div class='card'>
+          <div class='back'></div>
+          <div class='front'>
+            <div>Developer Contributions</div>
+            <div class='directorate'>Planning</div>
+          </div>
+        </div>
+      </div>
+      <div class='row'>
+        <div class='card'>
+          <div class='back'></div>
+          <div class='front'>
+            <div>Local Plans</div>
+            <div class='directorate'>Planning</div>
+          </div>
+        </div>
+        <div class='card'>
+          <div class='back'></div>
+          <div class='front'>
+            <div>Planning Permissions</div>
+            <div class='directorate'>Planning</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="page">
+      <div class='row'>
+        <div class='card'>
+          <div class='back'></div>
+          <div class='front'>
+            <div>Compulsory Purchase Orders</div>
+            <div class='directorate'>Planning</div>
+          </div>
+        </div>
+        <div class='card'>
+          <div class='back'></div>
+          <div class='front'>
+            <div>Unused Properties</div>
+            <div class='directorate'>Cities &amp; Local Growth</div>
+          </div>
+        </div>
+      </div>
+      <div class='row'>
+        <div class='card'>
+          <div class='back'></div>
+          <div class='front'>
+            <div>Golden Thread</div>
+            <div class='directorate'>Building Safety</div>
+          </div>
+        </div>
+        <div class='card'>
+          <div class='back'></div>
+          <div class='front'>
+            <div>Building Regulations Guidance</div>
+            <div class='directorate'>Building Safety</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="page">
+      <div class='row'>
+        <div class='card'>
+          <div class='back'></div>
+          <div class='front'>
+            <div>Housing Numbers</div>
+            <div class='directorate'>Planning</div>
+          </div>
+        </div>
+        <div class='card'>
+          <div class='back'></div>
+          <div class='front'>
+            <div>Property Logbooks</div>
+            <div class='directorate'>Housing Supply</div>
+          </div>
+        </div>
+      </div>
+      <div class='row'>
+        <div class='card'>
+          <div class='back'></div>
+          <div class='front'>
+            <div>Geospatial Data in Local Plans</div>
+            <div class='directorate'>Planning</div>
+          </div>
+        </div>
+        <div class='card'>
+          <div class='back'></div>
+          <div class='front'>
+            <div>Tree Preservation Orders</div>
+            <div class='directorate'>Planning</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>

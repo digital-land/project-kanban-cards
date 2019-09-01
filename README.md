@@ -1,6 +1,8 @@
 Kanban cards for [Digital Land projects](https://digital-land.github.io/project/).
 
-TBD: generate from the site ..
+https://digital-land.github.io/project-kanban-cards/
+
+TBD: generate as a part of the site:
 
 # Licence
 

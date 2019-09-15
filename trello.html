@@ -1,0 +1,14 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+
+board_url='https://trello.com/b/augX14aB';
+
+$.get(
+    board_url + ".json",
+    {},
+    function(data) {
+       console.log('page content: ', data);
+    }
+);
+
+</script>
